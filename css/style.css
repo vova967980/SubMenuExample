@@ -5,23 +5,22 @@ body{
 
 .mainMenu{
     box-sizing: border-box;
-    display: flex;
-    justify-content:flex-start;
-    flex-direction: row;
     min-width: 700px;
+    padding: 0;
+
 }
 
-.mainMenu>*{
+.mainMenu>li{
     width: 10%;
-
     height: auto;
     text-align: center;
     color: white;
     border: 1px solid darkgreen;
     background-color: #4C996B;
-    padding: 5px 0;
+    padding: 10px 0;
     font-family: sans-serif;
     font-weight:500 ;
+    display: inline-block;
 }
 
 .mainMenu>.categories{
@@ -44,6 +43,5 @@ body{
 }
 
 .contextMenu>*:hover{
-    display: flex;
-    flex-direction: column;
+
 }
